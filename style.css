@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/IMG_1918джпег\ —\ копия\ \(2\).jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(44, 158, 186);
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+
+
+}
+
+.wrapper {
+    background-color: #2d2d2de1;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.photka {
+    width: 270px;
+    height: 180px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.photo {
+    width: 100%;
+}
+
+.buttons_wrapper {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.button_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #6b65c2;
+    width: 100px;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+
+.button_1.back {
+    background-color: #c5c5c5;
+}
+
+.button_1:hover {
+    cursor: pointer;
+    background-color: #12b3fd;
+}
+
+.section_two {
+    margin: auto;
+    margin-top: 30px;
+    height: 100px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: 250ms;
+    margin-bottom: 150px;
+}
+
+.section_two:hover {
+    background-color: #865eff;
+    width: 100px;
+    transform: rotate(180deg);
+
+}
+
+ul {
+    background-color: #ffffff;
+    color: #ff1a1a;
+}
+
+ul li {
+    color: #4000ff;
+    font-size: 20px;
+}
