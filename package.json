@@ -1,0 +1,19 @@
+{
+  "name": "my-first-finished-app",
+  "version": "1.0.0",
+  "description": "'testing front technologies'",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass --watch ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "sass": "^1.83.0"
+  }
+}
